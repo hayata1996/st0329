@@ -37,7 +37,8 @@ with st.sidebar:
              
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model=tf.keras.models.load_model('mango_model.h5')
+#    model=tf.keras.models.load_model('mango_model.h5')
+    model=tf.keras.models.load_model('efficientnetb0-Mango Diseases-100.00.h5')
     return model
 with st.spinner('Model is being loaded..'):
     model=load_model()
