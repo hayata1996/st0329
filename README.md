@@ -11,5 +11,5 @@ https://www.kaggle.com/datasets/aryashah2k/mango-leaf-disease-dataset
 https://blog.streamlit.io/deep-learning-apps-for-image-processing-made-easy-a-step-by-step-guide/
 
 ## News 
-I changed the version of tensorflow from 2.9.1 to 2.16.1 becouse of compatibility issue when apploading as a web application. Some minor modifycation as well.
+I changed the version of tensorflow from 2.9.1 to 2.16.1 becouse of compatibility issue when apploading as a web application. Some minor modifycation as well. predict_generator() >>predict, regulator.ls(l=)>>regulator.ls(l2=), input_names >>
 
